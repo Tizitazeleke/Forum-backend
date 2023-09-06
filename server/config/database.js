@@ -35,10 +35,9 @@ let profile = `CREATE TABLE if not exists profile(
 let question = `CREATE TABLE if not exists question(
   question_id int auto_increment,
   question varchar(255) not null,
-  question_description varchar (255),
+  question_description varchar (500),
   question_code_block varchar(255),
   tags varchar (255),
-  post_id varchar (255) not null,
   user_id int not null,
   PRIMARY KEY (question_id)
   )`;

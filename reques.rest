@@ -1,1 +1,15 @@
-GET http://localhost:4000/api/users/all
+GET https://elated-teddy-elk.cyclic.app/api/users/all
+
+###
+
+POST https://elated-teddy-elk.cyclic.app/api/question/add
+Content-Type: application/json
+
+{
+    "question": "what is html",
+    "question_description": "what is html",
+    "question_code_block": "....",
+    "tags": "...",
+    "post_id":"23",
+    "user_id": "1"
+}
